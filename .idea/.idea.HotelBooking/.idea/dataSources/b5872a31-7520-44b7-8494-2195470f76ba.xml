@@ -16803,7 +16803,7 @@
     </schema>
     <table id="5566" parent="5563" name="Guests">
       <CreatedTimestamp>2023-07-23.17:19:22.187</CreatedTimestamp>
-      <ModifiedTimestamp>2023-07-23.17:19:22.187</ModifiedTimestamp>
+      <ModifiedTimestamp>2023-07-23.17:48:26.400</ModifiedTimestamp>
       <ObjectId>1237579447</ObjectId>
     </table>
     <table id="5567" parent="5563" name="__EFMigrationsHistory">
@@ -16832,36 +16832,64 @@
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="5572" parent="5566" name="PK_Guests">
+    <column id="5572" parent="5566" name="DocumentId_DocumentType">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <DefaultConstraintId>1397580017</DefaultConstraintId>
+      <DefaultConstraintName>DF__Guests__Document__534D60F1</DefaultConstraintName>
+    </column>
+    <column id="5573" parent="5566" name="DocumentId_IdNumber">
+      <DasType>nvarchar(max)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <DefaultConstraintId>1413580074</DefaultConstraintId>
+      <DefaultConstraintName>DF__Guests__Document__5441852A</DefaultConstraintName>
+    </column>
+    <default id="5574" parent="5566" name="DF__Guests__Document__534D60F1">
+      <ColNames>DocumentId_DocumentType</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-07-23.17:48:26.370</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1397580017</ObjectId>
+    </default>
+    <default id="5575" parent="5566" name="DF__Guests__Document__5441852A">
+      <ColNames>DocumentId_IdNumber</ColNames>
+      <DefaultExpression>N&apos;&apos;</DefaultExpression>
+      <ModifiedTimestamp>2023-07-23.17:48:26.400</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1413580074</ObjectId>
+    </default>
+    <index id="5576" parent="5566" name="PK_Guests">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
     </index>
-    <key id="5573" parent="5566" name="PK_Guests">
+    <key id="5577" parent="5566" name="PK_Guests">
       <CreatedTimestamp>2023-07-23.17:19:22.210</CreatedTimestamp>
       <ModifiedTimestamp>2023-07-23.17:19:22.210</ModifiedTimestamp>
       <ObjectId>1253579504</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_Guests</UnderlyingIndexName>
     </key>
-    <column id="5574" parent="5567" name="MigrationId">
+    <column id="5578" parent="5567" name="MigrationId">
       <DasType>nvarchar(150 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5575" parent="5567" name="ProductVersion">
+    <column id="5579" parent="5567" name="ProductVersion">
       <DasType>nvarchar(32 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="5576" parent="5567" name="PK___EFMigrationsHistory">
+    <index id="5580" parent="5567" name="PK___EFMigrationsHistory">
       <Clustering>1</Clustering>
       <ColNames>MigrationId</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
     </index>
-    <key id="5577" parent="5567" name="PK___EFMigrationsHistory">
+    <key id="5581" parent="5567" name="PK___EFMigrationsHistory">
       <CreatedTimestamp>2023-07-23.17:19:22.110</CreatedTimestamp>
       <ModifiedTimestamp>2023-07-23.17:19:22.110</ModifiedTimestamp>
       <ObjectId>1221579390</ObjectId>
