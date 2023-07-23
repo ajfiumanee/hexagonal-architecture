@@ -9,7 +9,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8268c000-dfcf-45c1-9d6d-7196fac5da3d" name="Changes" comment="" />
+    <list default="true" id="8268c000-dfcf-45c1-9d6d-7196fac5da3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BookingService/Core/Domain/Entities/Booking.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Core/Domain/Entities/Guest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Core/Domain/Entities/Room.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Core/Domain/Enums/Action.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Core/Domain/Enums/Status.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Core/Domain/Ports/IGuestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/Bookings/StateMachineTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelBooking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelBooking/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Domain/bin/Debug/net7.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Domain/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/ref/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Domain/obj/Debug/net7.0/refint/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/DomainTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/DomainTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/bin/Debug/net7.0/DomainTests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/bin/Debug/net7.0/DomainTests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/bin/Debug/net7.0/DomainTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/bin/Debug/net7.0/DomainTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/bin/Debug/net7.0/DomainTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/bin/Debug/net7.0/DomainTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/ref/DomainTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/ref/DomainTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/refint/DomainTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/refint/DomainTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/DomainTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/DomainTests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +54,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/46a322d26154b982566e1817203e5452c91223f93b0e392d9c5b4806696fdc1/Assert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -26,32 +62,35 @@
     <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2SwogLqV7VsmNsr5dmfpuhVnTK7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ReSpellerSettingsId",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/aj/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/aj/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/aj/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/aj/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache",
+      "/Users/aj/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache",
+      "/Users/aj/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API: http">
     <configuration name="API" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/API.dll" />
@@ -118,6 +157,8 @@
       <updated>1689858407316</updated>
       <workItem from="1690067115494" duration="3281000" />
       <workItem from="1690070518026" duration="124000" />
+      <workItem from="1690070688546" duration="1386000" />
+      <workItem from="1690119779837" duration="3941000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

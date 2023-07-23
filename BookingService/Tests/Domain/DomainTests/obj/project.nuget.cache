@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Tb50IuBxp8sQLmiARqg+Brdq6HcOWmMVDrMPRfC/eATGO1b4XCe0u97HoJfOa5ADGeAmQunF/avkmT5O5SqqOQ==",
+  "dgSpecHash": "KY1b7MLdaeJ0LkslIhiEaQ1WFJKdlWAMhj3GTybxpSNB02sE/AYNky5VBiQueo2o9vp8jp8GaEWQkoSIRU2/+A==",
   "success": true,
   "projectFilePath": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Domain/DomainTests/DomainTests.csproj",
   "expectedPackageFiles": [
