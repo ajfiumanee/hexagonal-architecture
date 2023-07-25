@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=830416bd_002D8fbf_002D4133_002Db109_002D990e09b326e3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldAlwaysStartWithCreatedStatus" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::36E9E490-A64E-43FF-8BD4-330260246569::net7.0::DomainTests.Bookings.StateMachineTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::9D165292-11A7-4BE2-B505-054FE4D1C5D7::net7.0::ApplicationTests.Guests.GuestManagerTests.Should_Return_MissingRequiredInformation_WhenDocsAreInvalid&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

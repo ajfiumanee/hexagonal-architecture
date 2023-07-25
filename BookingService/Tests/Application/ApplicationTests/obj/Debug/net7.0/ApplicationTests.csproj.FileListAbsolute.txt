@@ -96,3 +96,13 @@
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/obj/Debug/net7.0/ApplicationTests.pdb
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/obj/Debug/net7.0/ApplicationTests.genruntimeconfig.cache
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/obj/Debug/net7.0/ref/ApplicationTests.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/CoverletSourceRootsMapping
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/Castle.Core.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/Moq.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/Application.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/Domain.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/Application.pdb
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/bin/Debug/net7.0/Domain.pdb

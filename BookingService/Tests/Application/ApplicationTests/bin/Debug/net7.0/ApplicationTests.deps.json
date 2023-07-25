@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v7.0": {
       "ApplicationTests/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
+          "Moq": "4.18.4",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.4.2",
@@ -16,6 +18,17 @@
         },
         "runtime": {
           "ApplicationTests.dll": {}
+        }
+      },
+      "Castle.Core/5.1.1": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.1.0"
+          }
         }
       },
       "coverlet.collector/3.2.0": {},
@@ -281,6 +294,17 @@
           }
         }
       },
+      "Moq/4.18.4": {
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {
+            "assemblyVersion": "4.18.0.0",
+            "fileVersion": "4.18.4.0"
+          }
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -315,7 +339,42 @@
       },
       "NUnit.Analyzers/3.6.1": {},
       "NUnit3TestAdapter/4.4.2": {},
-      "System.Reflection.Metadata/1.6.0": {}
+      "System.Diagnostics.EventLog/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          },
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Reflection.Metadata/1.6.0": {},
+      "Application/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Application.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -323,6 +382,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Castle.Core/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "path": "castle.core/5.1.1",
+      "hashPath": "castle.core.5.1.1.nupkg.sha512"
     },
     "coverlet.collector/3.2.0": {
       "type": "package",
@@ -366,6 +432,13 @@
       "path": "microsoft.testplatform.testhost/17.5.0",
       "hashPath": "microsoft.testplatform.testhost.17.5.0.nupkg.sha512"
     },
+    "Moq/4.18.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IOo+W51+7Afnb0noltJrKxPBSfsgMzTKCw+Re5AMx8l/vBbAbMDOynLik4+lBYIWDJSO0uV7Zdqt7cNb6RZZ+A==",
+      "path": "moq/4.18.4",
+      "hashPath": "moq.4.18.4.nupkg.sha512"
+    },
     "NETStandard.Library/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -408,12 +481,29 @@
       "path": "nunit3testadapter/4.4.2",
       "hashPath": "nunit3testadapter.4.4.2.nupkg.sha512"
     },
+    "System.Diagnostics.EventLog/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
+      "path": "system.diagnostics.eventlog/6.0.0",
+      "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+    },
     "System.Reflection.Metadata/1.6.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "path": "system.reflection.metadata/1.6.0",
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
