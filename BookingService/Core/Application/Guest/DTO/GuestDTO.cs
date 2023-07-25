@@ -27,4 +27,17 @@ public class GuestDTO
             }
         };
     }
+
+    public static GuestDTO MapToDto(Domain.Entities.Guest guest)
+    {
+        return new GuestDTO
+        {
+            Id = guest.Id,
+            Email = guest.Email,
+            IdNumber = guest.DocumentId.IdNumber,
+            IdTypeCode = (int)guest.DocumentId.DocumentType,
+            Name = guest.Name,
+            Surname = guest.Surname
+        };
+    }
 }

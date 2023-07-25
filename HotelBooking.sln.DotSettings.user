@@ -3,5 +3,6 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::36E9E490-A64E-43FF-8BD4-330260246569::net7.0::DomainTests.Bookings.StateMachineTests&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::9D165292-11A7-4BE2-B505-054FE4D1C5D7::net7.0::ApplicationTests.Guests.GuestManagerTests.Should_Return_MissingRequiredInformation_WhenDocsAreInvalid&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::9D165292-11A7-4BE2-B505-054FE4D1C5D7::net7.0::ApplicationTests.Guests.GuestManagerTests.HappyPath&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
