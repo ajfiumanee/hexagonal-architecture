@@ -32,7 +32,7 @@ public class GuestManager : IGuestManager
             return new GuestResponse
             {
                 Success = false,
-                Errorcode = ErrorCodes.COULDNOT_STORE_DATE,
+                ErrorCode = ErrorCodes.COULDNOT_STORE_DATE,
                 Message = "There was an error when saving to DB"
             };
         }

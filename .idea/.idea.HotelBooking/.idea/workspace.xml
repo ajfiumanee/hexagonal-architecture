@@ -10,47 +10,127 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8268c000-dfcf-45c1-9d6d-7196fac5da3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/Guest/GuestRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookingService/Core/Application/Guest/DTO/GuestDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookingService/Core/Application/Guest/Ports/IGuestManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookingService/Core/Application/Guest/Requests/CreateGuestRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookingService/Core/Application/Guest/Responses/GuestResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookingService/Core/Application/GuestManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookingService/Core/Application/Response.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelBooking/.idea/dataSources/b5872a31-7520-44b7-8494-2195470f76ba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelBooking/.idea/dataSources/b5872a31-7520-44b7-8494-2195470f76ba.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/Controllers/GuestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Application.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Application.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ApplicationTests.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ApplicationTests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ApplicationTests.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ApplicationTests.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/NUnit3.TestAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/NUnit3.TestAdapter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/nunit.engine.api.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/nunit.engine.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/nunit.engine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/nunit.framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/testcentric.engine.metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/testhost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelBooking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelBooking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/GuestConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/Guest/GuestConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/HotelDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/HotelDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/RoomConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/Room/RoomConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/bin/Debug/net7.0/Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/bin/Debug/net7.0/Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/bin/Debug/net7.0/Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/bin/Debug/net7.0/Data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/Data.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/Data.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/ref/Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/ref/Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/refint/Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Adapters/Data/obj/Debug/net7.0/refint/Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/bin/Debug/net7.0/Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/ref/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/ref/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/refint/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/Debug/net7.0/refint/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Consumers/API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Consumers/API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/GuestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/GuestManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/Response.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/Response.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/bin/Debug/net7.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/bin/Debug/net7.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/bin/Debug/net7.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/bin/Debug/net7.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/Application.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Adapters/AdaptersTests/obj/Debug/net7.0/AdaptersTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Adapters/AdaptersTests/obj/Debug/net7.0/AdaptersTests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Application/ApplicationTests/obj/Debug/net7.0/ApplicationTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Application/ApplicationTests/obj/Debug/net7.0/ApplicationTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/ref/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/refint/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Core/Application/obj/Debug/net7.0/refint/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BookingService/Tests/Domain/DomainTests/obj/Debug/net7.0/DomainTests.csproj.FileListAbsolute.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +255,7 @@
       <workItem from="1690119779837" duration="8121000" />
       <workItem from="1690139404148" duration="6623000" />
       <workItem from="1690246564574" duration="2966000" />
+      <workItem from="1690302147314" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
