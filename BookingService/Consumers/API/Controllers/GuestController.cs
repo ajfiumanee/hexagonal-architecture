@@ -39,6 +39,26 @@ public class GuestController : ControllerBase
             {
                 return NotFound(res);
             }
+            else if (res.ErrorCode == ErrorCodes.NOT_FOUND)
+            {
+                return NotFound(res);
+            }
+            else if (res.ErrorCode == ErrorCodes.INVALID_PERSON_ID)
+            {
+                return BadRequest(res);
+            }
+            else if (res.ErrorCode == ErrorCodes.MISSING_REQUIRED_INFORMATION)
+            {
+                return BadRequest(res);
+            }
+            else if (res.ErrorCode == ErrorCodes.INVALID_EMAIL)
+            {
+                return BadRequest(res);
+            }
+            else if (res.ErrorCode == ErrorCodes.COULDNOT_STORE_DATE)
+            {
+                return BadRequest(res);
+            }
 
             _logger.LogError("Response with unknown ErrorCode Returned", res);
             return BadRequest(500);
