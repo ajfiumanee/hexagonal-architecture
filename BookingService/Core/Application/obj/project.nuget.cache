@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fSKqDjCiQlIgtPJUB9RzAnUVosgFcQp3qmEHRVH5dczG/pqlMMixyYfYMg0/kMG1h003R4kn3Y+vAIDgf1hI2A==",
+  "dgSpecHash": "hB8bYbgypnOXviNnPoARD+c6hv4B2mfumhagrJXaB3+w2WZIzn8iZBC1UhNald2UM/O4H7FXV+5G8A7NE/nnwQ==",
   "success": true,
   "projectFilePath": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Core/Application/Application.csproj",
   "expectedPackageFiles": [],

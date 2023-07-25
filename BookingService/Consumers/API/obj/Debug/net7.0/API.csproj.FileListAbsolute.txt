@@ -7,13 +7,16 @@
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/API.pdb
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Azure.Core.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Azure.Identity.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Humanizer.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.Identity.Client.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
@@ -25,9 +28,11 @@
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.OpenApi.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/System.CodeDom.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/System.Drawing.Common.dll
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
@@ -73,8 +78,3 @@
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/obj/Debug/net7.0/API.pdb
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/obj/Debug/net7.0/API.genruntimeconfig.cache
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/obj/Debug/net7.0/ref/API.dll
-/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Humanizer.dll
-/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
-/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Mono.TextTemplating.dll
-/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/System.CodeDom.dll
