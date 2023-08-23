@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D1OmyE3P7LoRxr0hbSGvMPjA2g5zzIKozXWISdVROW/LR0HR+WV6qVjlU7LgND0R+/d9/zAcReUY8V2mFLCmFA==",
+  "dgSpecHash": "GXjbE4BYmSaATyr/7cWLIl0Z8JLngM+sNmIV7+cUwOz82W4TCUjHz+wPK0gjpZiRE6+FR62KhOXOVEd5LHFOAA==",
   "success": true,
   "projectFilePath": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/API.csproj",
   "expectedPackageFiles": [

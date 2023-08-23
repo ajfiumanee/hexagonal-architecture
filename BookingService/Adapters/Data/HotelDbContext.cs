@@ -13,7 +13,7 @@ public class HotelDbContext : DbContext
 
     public virtual DbSet<Domain.Entities.Guest> Guests { get; set; }
     public virtual DbSet<Domain.Entities.Room> Rooms { get; set; }
-    public virtual DbSet<Booking> Bookings { get; set; }
+    public virtual DbSet<Domain.Entities.Booking> Bookings { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

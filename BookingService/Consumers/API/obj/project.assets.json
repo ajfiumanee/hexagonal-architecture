@@ -1709,6 +1709,19 @@
         "runtime": {
           "bin/placeholder/Domain.dll": {}
         }
+      },
+      "Payment.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Payment.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Payment.Application.dll": {}
+        }
       }
     }
   },
@@ -5025,6 +5038,11 @@
       "type": "project",
       "path": "../../Core/Domain/Domain.csproj",
       "msbuildProject": "../../Core/Domain/Domain.csproj"
+    },
+    "Payment.Application/1.0.0": {
+      "type": "project",
+      "path": "../../../PaymentService/Core/Application/Payment.Application/Payment.Application.csproj",
+      "msbuildProject": "../../../PaymentService/Core/Application/Payment.Application/Payment.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5034,6 +5052,7 @@
       "Data >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.9",
+      "Payment.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -5071,6 +5090,9 @@
             },
             "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/ApplicationTests.csproj": {
               "projectPath": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Tests/Application/ApplicationTests/ApplicationTests.csproj"
+            },
+            "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/Payment.Application/Payment.Application.csproj": {
+              "projectPath": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/Payment.Application/Payment.Application.csproj"
             }
           }
         }

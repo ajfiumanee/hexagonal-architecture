@@ -169,3 +169,5 @@
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/obj/Debug/net7.0/API.pdb
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/obj/Debug/net7.0/API.genruntimeconfig.cache
 /Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/obj/Debug/net7.0/ref/API.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Payment.Application.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Consumers/API/bin/Debug/net7.0/Payment.Application.pdb

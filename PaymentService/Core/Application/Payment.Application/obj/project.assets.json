@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../../../../BookingService/Core/Application/Application.csproj",
+      "msbuildProject": "../../../../BookingService/Core/Application/Application.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../../BookingService/Core/Domain/Domain.csproj",
+      "msbuildProject": "../../../../BookingService/Core/Domain/Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/aj/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/Payment.Application/Payment.Application.csproj",
+      "projectName": "Payment.Application",
+      "projectPath": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/Payment.Application/Payment.Application.csproj",
+      "packagesPath": "/Users/aj/.nuget/packages/",
+      "outputPath": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/Payment.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/aj/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Core/Application/Application.csproj": {
+              "projectPath": "/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/BookingService/Core/Application/Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

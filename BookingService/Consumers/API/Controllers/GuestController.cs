@@ -24,7 +24,7 @@ public class GuestController : ControllerBase
         }
 
         [HttpPost]
-        public async Task<ActionResult<GuestDTO>> Post(GuestDTO guest)
+        public async Task<ActionResult<GuestDto>> Post(GuestDto guest)
         {
             var request = new CreateGuestRequest
             {
@@ -51,7 +51,7 @@ public class GuestController : ControllerBase
             {
                 return BadRequest(res);
             }
-            else if (res.ErrorCode == ErrorCodes.COULDNOT_STORE_DATE)
+            else if (res.ErrorCode == ErrorCodes.COULD_NOT_STORE_DATA)
             {
                 return BadRequest(res);
             }
@@ -61,15 +61,15 @@ public class GuestController : ControllerBase
         }
 
         [HttpGet]
-        public async Task<ActionResult<GuestDTO>> Get(int guestId)
+        public async Task<ActionResult<GuestDto>> Get(int guestId)
         {
             var res = await _guestManager.GetGuest(guestId);
             if (res.Success)
             {
-                return Created("", res.Data);
+                return Ok(res.Data);
             }
 
-            return BadRequest(res);
+            return NotFound(res);
         }
     }
 }

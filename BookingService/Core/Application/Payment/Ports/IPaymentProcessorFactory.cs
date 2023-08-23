@@ -1,0 +1,9 @@
+using Application.Booking.Dtos;
+using Application.Payment.Enums;
+
+namespace Application.Payment.Ports;
+
+public interface IPaymentProcessorFactory
+{
+    IPaymentProcessor GetPaymentProcessor(SupportedPaymentProviders selectedPaymentProvider);
+}

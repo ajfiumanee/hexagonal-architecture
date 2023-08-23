@@ -22,4 +22,6 @@
       <ProjectReference Include="..\..\..\Core\Application\Application.csproj" />
     </ItemGroup>
 
+
+
 </Project>

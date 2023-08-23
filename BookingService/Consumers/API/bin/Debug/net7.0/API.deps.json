@@ -13,6 +13,7 @@
           "Data": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.7",
           "Microsoft.EntityFrameworkCore.Design": "7.0.9",
+          "Payment.Application": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -1024,6 +1025,14 @@
         "runtime": {
           "Domain.dll": {}
         }
+      },
+      "Payment.Application/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "runtime": {
+          "Payment.Application.dll": {}
+        }
       }
     }
   },
@@ -1665,6 +1674,11 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Payment.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

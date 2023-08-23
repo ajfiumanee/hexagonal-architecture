@@ -1,0 +1,17 @@
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/bin/Debug/net7.0/App.deps.json
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/bin/Debug/net7.0/App.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/bin/Debug/net7.0/App.pdb
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/bin/Debug/net7.0/Application.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/bin/Debug/net7.0/Domain.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/bin/Debug/net7.0/Application.pdb
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/bin/Debug/net7.0/Domain.pdb
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/App.csproj.AssemblyReference.cache
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/App.AssemblyInfoInputs.cache
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/App.AssemblyInfo.cs
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/App.csproj.CoreCompileInputs.cache
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/App.csproj.CopyComplete
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/App.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/refint/App.dll
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/App.pdb
+/Users/aj/projects/private/tests/hexagonal-architecture/HotelBooking/PaymentService/Core/Application/App/obj/Debug/net7.0/ref/App.dll

@@ -15,7 +15,7 @@ public class StateMachineTests
     public void ShouldAlwaysStartWithCreatedStatus()
     {
         var booking = new Booking();
-        Assert.AreEqual(booking.CurrentStatus, Status.Created);
+        Assert.AreEqual(booking.Status, Status.Created);
     }
 
     [Test]
@@ -24,7 +24,7 @@ public class StateMachineTests
         var booking = new Booking();
         booking.ChangeState(Action.Pay);
 
-        Assert.AreEqual(booking.CurrentStatus, Status.Paid);
+        Assert.AreEqual(booking.Status, Status.Paid);
     }
 
     [Test]
@@ -33,7 +33,7 @@ public class StateMachineTests
         var booking = new Booking();
         booking.ChangeState(Action.Cancel);
 
-        Assert.AreEqual(booking.CurrentStatus, Status.Canceled);
+        Assert.AreEqual(booking.Status, Status.Canceled);
     }
 
     [Test]
@@ -43,7 +43,7 @@ public class StateMachineTests
         booking.ChangeState(Action.Pay);
         booking.ChangeState(Action.Finish);
 
-        Assert.AreEqual(booking.CurrentStatus, Status.Finished);
+        Assert.AreEqual(booking.Status, Status.Finished);
     }
 
     [Test]
@@ -53,7 +53,7 @@ public class StateMachineTests
         booking.ChangeState(Action.Pay);
         booking.ChangeState(Action.Refund);
 
-        Assert.AreEqual(booking.CurrentStatus, Status.Refunded);
+        Assert.AreEqual(booking.Status, Status.Refunded);
     }
 
     [Test]
@@ -64,7 +64,7 @@ public class StateMachineTests
         booking.ChangeState(Action.Cancel);
         booking.ChangeState(Action.Reopen);
 
-        Assert.AreEqual(booking.CurrentStatus, Status.Created);
+        Assert.AreEqual(booking.Status, Status.Created);
     }
 
     [Test]
@@ -73,7 +73,7 @@ public class StateMachineTests
         var booking = new Booking();
         booking.ChangeState(Action.Refund);
 
-        Assert.AreEqual(booking.CurrentStatus, Status.Created);
+        Assert.AreEqual(booking.Status, Status.Created);
     }
 
     [Test]
@@ -84,6 +84,6 @@ public class StateMachineTests
         booking.ChangeState(Action.Finish);
         booking.ChangeState(Action.Refund);
 
-        Assert.AreEqual(booking.CurrentStatus, Status.Finished);
+        Assert.AreEqual(booking.Status, Status.Finished);
     }
 }
